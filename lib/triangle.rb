@@ -12,11 +12,11 @@ class Triangle
  
   binding.pry
   
-  def kind 
-    x = self.instance_variables
-    x.each 
+  # def kind 
+  #   x = self.instance_variables
+    
       
-  end     
+  # end     
   
   class TriangleError < StandardError
   end   
