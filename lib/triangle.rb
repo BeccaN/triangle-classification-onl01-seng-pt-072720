@@ -10,11 +10,9 @@ class Triangle
     @length_3 = length_3
   end 
   
-  # def kind 
-  #   x = self.instance_variables
+  def kind 
     
-      
-  # end     
+  end   
   
   class TriangleError < StandardError
   end   
