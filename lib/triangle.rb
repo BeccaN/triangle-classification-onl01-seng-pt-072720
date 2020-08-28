@@ -14,6 +14,8 @@ class Triangle
   def kind 
     if self.length_1 <= 0 || self.length_2 <= 0 || self.length_3 <= 0 
       raise TriangleError
+    elsif self.length_1 
+      raise TriangleError
     elsif self.length_1 == self.length_2 && self.length_2 == self.length_3 && self.length_1 == self.length_3
       return :equilateral
     elsif self.length_1 == self.length_2 || self.length_2 == self.length_3 || self.length_1 == self.length_3
