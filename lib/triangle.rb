@@ -9,8 +9,6 @@ class Triangle
     @length_2 = length_2
     @length_3 = length_3
   end 
- 
-  binding.pry
   
   # def kind 
   #   x = self.instance_variables
